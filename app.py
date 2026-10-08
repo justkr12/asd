@@ -15,7 +15,7 @@ if not api_key:
 # AI 클라이언트 초기화 (기본 세팅은 OpenRouter 무료 모델 기준)
 client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1.",
-    api_key=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
+    api_key=st.secrets["NVIDIA_API_KEY"]
 )
 
 # 대화 기록 세션 초기화
